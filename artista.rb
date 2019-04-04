@@ -1,5 +1,3 @@
-load "controle.rb"
-
 class Artista 
     def initialize(nome,nacionalidade)
         @nome = nome
