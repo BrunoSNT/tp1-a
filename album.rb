@@ -1,6 +1,6 @@
 load "artista.rb"
 
-class Album
+class Album < Artista #Herda métodos de Artista
     def initialize nome,ano,artista,participacao
         @nome = nome
         @ano = ano
@@ -23,10 +23,6 @@ class Album
         ObjectSpace.each_object(Album).map { |x| x.nome }
     end
 
-    def nome
-        @nome
-    end
-
     def ano
         @ano
     end
@@ -35,20 +31,12 @@ class Album
         @artista
     end
 
-    def musicas
-        @musicas
-    end
-
     def participacao
         @participacao
     end
 
     def duracao
         @duracao
-    end
-
-    def nome= nome
-        self.nome = nome
     end
 
     def ano= ano
