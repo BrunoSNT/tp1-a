@@ -11,7 +11,7 @@ Deseja-se construir um sistema para manter um registro de artistas musicais e se
 
 ## Installation
 
-https://www.ruby-lang.org/pt/documentation/installation/ <= ruby-lang
+https://www.ruby-lang.org/pt/documentation/installation/ <- Get Ruby!
 
 ## Usage
 
@@ -19,11 +19,5 @@ https://www.ruby-lang.org/pt/documentation/installation/ <= ruby-lang
 ~dir/ $ ruby main.rb
 
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
