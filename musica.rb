@@ -1,6 +1,6 @@
 load "album.rb"
 
-class Musica < Album #Herda métodos de Album e consequentemente de Artista
+class Musica
     def initialize nome,duracao,artista,album
         @nome = nome
         @duracao = duracao
@@ -23,8 +23,23 @@ class Musica < Album #Herda métodos de Album e consequentemente de Artista
         ObjectSpace.each_object(Musica).map { |x| x.nome }
     end
 
+    def nome
+        @nome
+    end
+
+    def artista
+        @artista
+    end
+
     def album
         @album
     end
 
+    def duracao
+        @duracao
+    end
+
+    def nome= nome
+        self.nome = nome
+    end
 end
