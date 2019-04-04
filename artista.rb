@@ -31,4 +31,13 @@ class Artista
     def musicas
         @musicas
     end
+
+    def nome= nome
+        self.nome = nome
+    end
+
+    def nacionalidade= nacionalidade
+        self.nacionalidade = nacionalidade
+    end
+
 end

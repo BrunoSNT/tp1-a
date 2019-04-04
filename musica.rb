@@ -38,4 +38,8 @@ class Musica
     def duracao
         @duracao
     end
+
+    def nome= nome
+        self.nome = nome
+    end
 end

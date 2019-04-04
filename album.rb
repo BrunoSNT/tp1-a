@@ -46,4 +46,16 @@ class Album
     def duracao
         @duracao
     end
+
+    def nome= nome
+        self.nome = nome
+    end
+
+    def ano= ano
+        self.ano = ano
+    end
+
+    def duracao= duracao
+        self.duracao = duracao
+    end
 end
