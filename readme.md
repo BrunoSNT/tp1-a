@@ -16,8 +16,8 @@ https://www.ruby-lang.org/pt/documentation/installation/ <= ruby-lang
 ## Usage
 
 ```bash
-ruby main.rb
-```ar.singularize('phenomena') # returns 'phenomenon'
+~dir/ $ ruby main.rb
+
 ```
 
 ## Contributing
